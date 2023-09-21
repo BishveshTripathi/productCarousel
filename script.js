@@ -16,12 +16,15 @@ let right_mover = () => {
   l = l + movePer;
   if (product == 1) {
     l = 0;
+    console.log(l);
   }
   for (const i of product) {
     if (l > maxMove) {
       l = l - movePer;
+      console.log(l);
     }
     i.style.left = "-" + l + "%";
+    console.log(i.style.left);
   }
 };
 
@@ -33,6 +36,7 @@ let left_mover = () => {
   for (const i of product) {
     if (product_page > 1) {
       i.style.left = "-" + l + "%";
+      console.log(i.style.left);
     }
   }
 };

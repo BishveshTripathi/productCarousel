@@ -76,7 +76,7 @@ section .product {
   position: relative;
   left: 0;
   transition: 0.5s;
-  background-color: #e3baba;
+  /* background-color: #e3baba; */
 }
 picture {
   width: 100%;
